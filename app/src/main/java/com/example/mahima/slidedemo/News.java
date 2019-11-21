@@ -22,7 +22,8 @@ import org.json.JSONObject;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 
-public class news extends AppCompatActivity implements NetworkInterface {
+
+public class News extends AppCompatActivity implements NetworkInterface {
 
     TextView t1,t2;
     //Button btn;

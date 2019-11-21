@@ -8,6 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+/*
+Class to describe how to use the app
+ */
+
 public class Howtouse extends Fragment {
 
     @Override
