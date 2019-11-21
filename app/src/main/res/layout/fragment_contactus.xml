@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT US"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="7069164864"
+                android:textSize="20dp"
+                android:autoLink="all"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/call"
+                android:id="@+id/btncall"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="mahimapatel65@gmail.com"
+                android:textSize="20dp"
+                android:autoLink="all"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_marginLeft="05dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/email" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="WE  WANT  TO  HEAR  FROM  YOU...!!!"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

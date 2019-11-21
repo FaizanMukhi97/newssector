@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/howtouse"
+            android:icon="@drawable/howtouse"
+            android:title="How to Use" />
+
+        <item android:title="Category">
+            <menu>
+        <item
+            android:id="@+id/enter"
+            android:icon="@drawable/enter"
+            android:title="Entertainment" />
+        <item
+            android:id="@+id/sport"
+            android:icon="@drawable/sport"
+            android:title="Sports" />
+        <item
+            android:id="@+id/crime"
+            android:icon="@drawable/crime"
+            android:title="Crime" />
+        <item
+            android:id="@+id/social"
+            android:icon="@drawable/social"
+            android:title="Social" />
+        <item
+            android:id="@+id/education"
+            android:icon="@drawable/education"
+            android:title="Education" />
+        <item
+            android:id="@+id/politics"
+            android:icon="@drawable/politics"
+            android:title="Politics" />
+        <item
+            android:id="@+id/business"
+            android:icon="@drawable/business"
+            android:title="Business" />
+            </menu>
+        </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/contactus"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/aboutus"
+                android:title="About Us" />
+        </menu>
+    </item>
+    <item android:title="Personal Information">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

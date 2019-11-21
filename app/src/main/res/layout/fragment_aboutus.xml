@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="News Sector"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="50dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:text="In this rapid world people do not have time to see uninteresting things.People only like to see, watch, do, share, etc only those things in which they are interested."/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="We are going to use this scenario in our news Application and Website.After the registration in our system, whole behaviour of the user will be stored in background with timely manner. "/>
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Our system will generate pattern on the basis of behaviour of user.We are going to make a special category which shows the news on the basis of generated pattern,which is liken by user to conclude news reader doesn’t have to go through irrelevant things to read at their interested ones. User can also participate in debate for discussing on particular news.User can comment, like the particular news."/>
+
+</LinearLayout>
